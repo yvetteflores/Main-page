@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Skills</title>
+<link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/hacker-1511798-1281143.png" type="image/gif" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body {
+  background-color: #212121;
+  padding: 30px 0;
+}
+
+/*---- bar botton ----*/
+.snip1526 {
+  font-family: 'Work Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.snip1526 *,
+.snip1526 *:after {
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.snip1526 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+
+.snip1526 a {
+  backface-visibility: hidden;
+  color: #ffffff;
+  display: block;
+  line-height: 2.2em;
+  padding: 0 1.4em;
+  position: relative;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background-color: #667273;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.snip1526 a:after {
+  background-color: #5c122e;
+  color: transparent;
+  content: attr(data-hover);
+  top: 0%;
+  line-height: 2.2em;
+  position: absolute;
+  left: 100%;
+  width: 100%;
+  -webkit-transform: translateX(0%) rotateY(90deg);
+  transform: translateX(0%) rotateY(90deg);
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+.snip1526 li:hover a,
+.snip1526 li.current a {
+  -webkit-transform: translate(-50%) rotateY(-90deg);
+  transform: translate(-50%) rotateY(-90deg);
+  background-color: #1e2222;
+  color: transparent;
+}
+
+.snip1526 li:hover a:after,
+.snip1526 li.current a:after {
+  background-color: #2E86C1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+/* Popup container - can be anything you want */
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/*-- mobile friendly---*/
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:right;
+  width:100%;
+  text-align:center;
+  padding-left:10%;
+}
+
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  padding-left:10%;
+}
+.right {
+  float:right;
+  width:30%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  
+   border: 1px solid transparent;
+  border-radius: 3px;
+  display: block;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+.right:hover {
+  background-position: left bottom;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+/* --- back image --*/
+img.center_back
+{
+padding-top:30px;
+}
+img.cover {
+    width:100%;
+    
+   
+    
+}
+#borderimg { 
+    
+    border: 12px solid transparent;
+    padding: 8px;
+    position:block;
+    border-image: url(data:image/jpeg;base64,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) 30 round;
+}
+
+/* ---- typewriter ---*/
+
+.line-1{
+    position: absolute;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+</style>
+</head>
+
+
+<body style="font-family:Verdana;color:#aaaaaa;" oncontextmenu="return false;">
+
+<div class="cover" style="background-image: url(https://newevolutiondesigns.com/images/freebies/robot-facebook-cover-18.jpg);padding:15px;text-align:center;height:300px;width:100%">
+</div>
+
+
+<div class="popup" onclick="myFunction()" style="position:absolute;  ;top:318px; center:100%">
+<div style="overflow:auto" >
+<span class="popuptext" id="myPopup">input my second security code first to access The Navigations</span>
+<ul class="snip1526">
+  <div class="menu">
+    <ul class="snip1526">
+  <li ><a href="https://yvetteflores.github.io/Main-page/" data-hover="Home">Home</a></li>
+  <li onclick="location.href='https://yvetteflores.github.io/Main-page/About-me.html';"><a data-hover="Information">About Me</a></li>
+  <li onclick="location.href='https://yvetteflores.github.io/Main-page/School-Works.html';"><a data-hover="Samples">School Works</a></li>
+  <li onclick="location.href='https://yvetteflores.github.io/Main-page/My-Works.html';"><a data-hover="Samples">My Works</a></li>
+  <li class="current" onclick="location.href='#';"><a data-hover="Skills">Talents</a></li>
+  <li onclick="location.href='#';"><a data-hover="Contact">Reach Me</a></li>
+</ul>
+  </div>
+
+
+
+  <div class="main">
+<div style="padding-left: 35px;"> 
+
+    
+</div>
+</div>
+  
+  
+  
+  
+  
+
+<div class="right">
+<div style="padding-left:50px;padding:10px">
+<div class="container">
+
+    
+</div>
+</div>
+</div></div>
+
+
+
+<div style="padding-left:20%; position absolute">
+<div style="text-align:center;padding:5px;">  
+    
+    <img  class="center_back" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ8NDQ0NDQ0NDw0NDQ0NDQ8NDQ0NFRUWFhURFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKy0rKzcrKysrKzctKystKy0rLSsrKys3KysrLSsrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8VSQApAikCKSiKIJIwEjiBIrACKAI4sAIgAjiBkNAAGgABQMohBAoEoCCSAFIgiCoiiCKiBFEEjhwBixrDgM4saw4DGLGsWAxgxvBgMhrAABQMogACgZDQAJJAEEEkoCMBUJEIIxEEVCCMgbgDGsMhkASHDI1gM4saw4DGLG8GAxYLG8GA52Cx0sZsBzTVjIAGgAKUDKIAAhBJIEkgMIhURRBQogjEYBjUEbkBRqRRqApDIZCAxY1iwGcFbwAxgsbsFgOdZrpYzQc2a3WaDINAAGgADQARABRKIIggiCoYQYBIIGNRmNwDG4zGoDUjUEagGNSCNQFFhIjOCxsUGKy3WaKxYzW6zQc6zW6zQYoarIAUgACAAIAJJBJEEYkoSCBMDQKNxmNQGo3GI3AajcYjcBqNRmNQQwggma1WaAZrVZoM1it1iis1it1igxQ1WQFBFAAgAKRQCSQRgQEiFQwggTAQahjLUBuNxzjcBuNRiVqA3Gow1KI0WdWg0KNFoKs02s0UVmms0GazWqxQFZpoAAgBRSyCFIAJJBJIDCCoTAQMLLUAmBA3G45xqUHSNSsQyg6SliU6DenWNWg1o0atBWi0Wi0FWabWLQVrFNFBkEAAQABAIEAElEAUAaQMUJBAlloCWYQajUrBgOkplYlMoOmnXPWpQb1axp0GtWsatA6LRotA2s0WgFazqQBIAEgCCQAEAklEEgQSSBpAqEsmA0WSBMCBqU6ytBuU6xp0G9WsatBvRrOrQatGs6tA6ykCCAIUgAkAQSBBJAGAwECAKBBEFQpICQgaQQNIIGkEBWhAdQQEJAkECCQIIAkgCCSCBAIwGAkkCQQEpKFJAUkBiKAEoEkgSSBJIEKUABQBJAKEgQSAJJBJIEkgf/2Q=="  id="borderimg" style="width:75%; height:1000px">
+
+<div style="padding-left:30%">
+<div class="line-1 anim-typewriter">Coming Soon</div></div>
+    
+</div></div>
+
+
+
+
+<script type="text/javascript">
+
+ 
+            
+            // anti inspect
+            document.onkeydown = function (e) {
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+                }
+            }
+
+            const input = document.querySelector('#myInput');
+            input.addEventListener('keyup', function (e) {
+                if (e.keyCode === 13) {
+                    alert('hi');
+                }
+            });
+        //hover sa baba script
+           $(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+            
+
+</script>
+
+</body>
+</html>
